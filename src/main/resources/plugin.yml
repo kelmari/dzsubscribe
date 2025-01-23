@@ -1,0 +1,9 @@
+name: DZSubscribe
+version: '${project.version}'
+main: ru.dercec.plugin.dzsubscribe.DZSubscribe
+api-version: '1.16'
+depend: [PlaceholderAPI]
+commands:
+  dzsubscribe:
+    aliases:
+      - dzsub
